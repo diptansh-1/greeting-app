@@ -1,0 +1,71 @@
+/* Apply a gradient background */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #0A192F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Container styles */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+/* Card layout */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 320px;
+}
+
+/* Heading styles */
+.card h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Input field styles */
+.card input {
+  width: 92%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Button styles */
+.card button {
+  background: #62FAD7;
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.card button:hover {
+  background: #56dabb;
+}
+
+/* Message styles */
+.card p {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}
